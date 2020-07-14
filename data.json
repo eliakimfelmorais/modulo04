@@ -8,6 +8,24 @@
             "created_at": 1594258448179,
             "services": "crossfit, musculacao, natação",
             "gender": "M"
+        },
+        {
+            "id": 2,
+            "name": "Joao da Silva",
+            "avatar_url": "http://google.com",
+            "birth": 763430400000,
+            "created_at": 1594596936948,
+            "services": "musculação, caminhada",
+            "gender": "on"
+        },
+        {
+            "id": 3,
+            "name": "William",
+            "avatar_url": "http://google.com",
+            "birth": 79747200000,
+            "created_at": 1594597170346,
+            "services": "teste",
+            "gender": "M"
         }
     ]
 }

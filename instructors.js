@@ -1,4 +1,5 @@
 //modulo para salvar arquivos no filesystem
+const { age } = require('./utils');
 const fs = require('fs')
 const data = require('./data.json');
 const { url } = require('inspector');
@@ -54,21 +55,11 @@ exports.show = function(req, res){
         res.send("Instructor Not found");
     }
 
-    let timestamp = foundInstructor.birth;
-    function age(timestamp){
-        const today = new Date();
-        const birthdate = new Date(timestamp);
-
-        let age = today.getFullYear() - birthdate.getFullYear();
-        if 
-
-    }
-
     const instructor = {
         ...foundInstructor,
-        "age" : "",
+        "age" : age(foundInstructor.birth),
         "services" : foundInstructor.services.split(","),
-        "created_at" : ""
+        "created_at" : Intl.DateTimeFormat("pt-BR").format(foundInstructor.created_at)
     }
 
     return res.render("instructors/show", {instructor});
