@@ -1,31 +1,57 @@
 {
+    "members": [
+        {
+            "avatar_url": "http://academia.com",
+            "name": "Eliakim F S Morais",
+            "email": "eliakimfelmorais@gmail.com",
+            "birth": 763689600000,
+            "gender": "M",
+            "blood": "A1",
+            "weight": "77",
+            "height": "177",
+            "id": 2
+        },
+        {
+            "avatar_url": "http://google.comasasas",
+            "name": "Joao da Silva S",
+            "email": "joao@google.ccom",
+            "birth": 920160000000,
+            "gender": "M",
+            "blood": "A1",
+            "weight": "77",
+            "height": "190",
+            "id": 4
+        },
+        {
+            "avatar_url": "https://unsplash.com/photos/WvDYdXDzkhs",
+            "name": "Francine Francisco Pereira",
+            "email": "francine@gmail.com",
+            "birth": 921801600000,
+            "gender": "M",
+            "blood": "AB0",
+            "weight": "60",
+            "height": "177",
+            "id": 5
+        }
+    ],
     "instructors": [
         {
-            "id": 1,
-            "name": "Lucas F.",
-            "avatar_url": "http://google.com",
-            "birth": 757382400000,
-            "created_at": 1594258448179,
+            "id": 5,
+            "name": "Joao da Silva Lucas",
+            "avatar_url": "https://unsplash.com/photos/sHfo3WOgGTU",
+            "birth": "1994-03-12",
+            "created_at": 1594699491730,
+            "services": "musculação, caminhada, trekking",
+            "gender": "M"
+        },
+        {
+            "id": 6,
+            "name": "Francine Francisco Pereira",
+            "avatar_url": "https://unsplash.com/photos/hdBaq9W0hRY",
+            "birth": "1994-01-01",
+            "created_at": 1594699780095,
             "services": "crossfit, musculacao, natação",
-            "gender": "M"
-        },
-        {
-            "id": 2,
-            "name": "Joao da Silva",
-            "avatar_url": "http://google.com",
-            "birth": 763430400000,
-            "created_at": 1594596936948,
-            "services": "musculação, caminhada",
-            "gender": "on"
-        },
-        {
-            "id": 3,
-            "name": "William",
-            "avatar_url": "http://google.com",
-            "birth": 79747200000,
-            "created_at": 1594597170346,
-            "services": "teste",
-            "gender": "M"
+            "gender": "F"
         }
     ]
 }
