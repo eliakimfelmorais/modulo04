@@ -1,5 +1,5 @@
-const instructors = require('./controllers/instructors')
-const members = require('./controllers/members')
+const instructors = require('./app/controllers/instructors')
+const members = require('./app/controllers/members')
 
 const express = require('express');
 const routes  = express.Router()
